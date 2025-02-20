@@ -98,3 +98,9 @@ Si no se dispone de uuid se puede usar vachar(36) como tipo del id
 Se puede reducir el espacio de almacenamiento a 16 bytes con un tipo binary de 16 bytes binary(16)
 se genera con uuid_to_bin(uuid())
 función inversa(bin_to_uuid(sobre el campo)) para volver a un uuid.
+
+bloqueos mySql
+https://documentation.help/MySQL-5.0-es/ch13s04.html
+
+-Drivers nativos.
+-Orm plug.

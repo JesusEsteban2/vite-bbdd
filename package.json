@@ -1,7 +1,7 @@
 {
-    "name": "nodeserver",
+    "name": "vite-bbdd",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "main.js",
     "type": "module",
     "scripts": {
         "build": "tsc -w",
@@ -34,7 +34,7 @@
     "dependencies": {
         "cross-env": "^7.0.3",
         "debug": "^4.4.0",
-        "dotenv": "^16.4.7",
-        "express": "^4.21.2"
+        "express": "^4.21.2",
+        "mysql2": "^3.12.0"
     }
 }
